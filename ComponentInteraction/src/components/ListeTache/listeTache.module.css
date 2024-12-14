@@ -1,0 +1,48 @@
+.card {
+    padding: 0px;
+    border: none!important;
+    background-color: #272730 !important;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+.cardheader {
+    color: rgb(255, 255, 255) !important;
+    background-color: #272730 !important;
+}
+
+.cardfooter {
+    color: rgba(255, 255, 255, 0.50) !important;
+    background-color: #272730 !important;
+    font-size: 12px!important;
+    font-weight: lighter;
+}
+
+.cardbody {
+    color: white!important;
+    background-color: #2D2D37 !important;
+}
+
+.prio {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.btntermine {
+    margin-right: 10px;
+}
+
+.nom {
+    font-weight: bold;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.btnxs {
+    font-size: 0.75rem!important;
+    padding: 0.25rem 0.5rem!important;
+}
