@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .container {
+            height: 100vh; /* La hauteur de tout l'écran */
+            display: flex;
+            padding-bottom: 100px;
+            flex-direction: column;
+        }
+
+        .row:first-child {
+            flex: 0 0 auto; /* Fixe la hauteur du titre */
+        }
+
+        .row:last-child {
+            flex: 1; /* Utilise tout l'espace restant pour cette ligne */
+            overflow: hidden; /* Important : Empêche le dépassement des colonnes */
+        }
+
+        .container-formulaire {
+            height: 100%; /* Remplit toute la hauteur de sa colonne */
+            overflow-y: auto; /* Active le défilement si nécessaire */
+        }
+
+        .container-liste {
+            height: 100%; /* Assure que cette colonne occupe tout l'espace disponible */
+            overflow-y: auto; /* Active le défilement vertical */
+            overflow-x: hidden; /* Évite le défilement horizontal */
+        }
+
+        .bord {
+            border: 1px solid black;
+        }
+
+        .card-test{
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+        <h1 class="text-center">TODOLIST</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-4 bord d-flex align-items-center container-formulaire">
+            <!--// FORMULAIRE-->
+            <div class="card text-center">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </div>
+        </div>
+        <div class="col-8 bord container-liste">
+            <div class="row">
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+                <div class="col-md-4 card-test">un</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
