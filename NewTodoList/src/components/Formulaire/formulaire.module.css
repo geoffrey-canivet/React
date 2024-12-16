@@ -1,0 +1,10 @@
+.containerform{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.cardform {
+    width: 100%;
+    margin-left: 25px;
+}

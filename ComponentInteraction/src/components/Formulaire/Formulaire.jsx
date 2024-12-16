@@ -8,7 +8,7 @@ const Formulaire = () => {
             <div className="col-4">
                 <div className={`card ${style.card}`}>
                     <div
-                        className={`card-header text-start d-flex align-items-center justify-content-between ${style.cardheader}`}>
+                        className={`card-header`}>
                         <div className="d-flex align-items-center">
                             <div className={style.prio}></div>
                             <p className="p-0 m-0 m-lg-2">Ajouter une tâche</p>

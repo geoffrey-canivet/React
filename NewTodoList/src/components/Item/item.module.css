@@ -1,0 +1,25 @@
+.carditem {
+    border: none!important;
+}
+.importance {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #970000;
+}
+.cardheader {
+    color: rgb(255, 255, 255) !important;
+    background-color: #272730 !important;
+}
+
+.cardfooter {
+    color: rgba(255, 255, 255, 0.50) !important;
+    background-color: #272730 !important;
+    font-size: 12px!important;
+    font-weight: lighter;
+}
+
+.cardbody {
+    color: white!important;
+    background-color: #2D2D37 !important;
+}
