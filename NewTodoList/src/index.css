@@ -1,3 +1,16 @@
 :root {
   background-color: #242424;
 }
+html, body {
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime les padding par défaut */
+  height: 100%; /* Nécessaire pour que tout l'espace soit occupé */
+}
+
+body {
+  min-height: 100vh; /* Hauteur minimale = 100% de la hauteur de l'écran */
+  max-height: 100vh; /* Hauteur maximale = 100% de la hauteur de l'écran */
+  overflow: hidden;  /* Évite un défilement vertical */
+  display: flex;     /* Facultatif : permet d'organiser le contenu */
+  flex-direction: column; /* Permet d'empiler les enfants verticalement */
+}

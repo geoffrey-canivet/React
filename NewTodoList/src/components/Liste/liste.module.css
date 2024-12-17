@@ -1,7 +1,14 @@
 .scroll {
-    height: 100vh;
+    height: 90vh;
     overflow-x: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 0px;
     box-sizing: border-box;
+}
+
+.vide {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 100px;
+    opacity: 0.5;
 }

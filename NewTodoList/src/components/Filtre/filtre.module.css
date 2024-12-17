@@ -1,0 +1,30 @@
+.containerFiltre{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.filtreBas{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3f484e;
+}
+.filtreNormal{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4d8ab5;
+}
+.filtreHaut{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ca3434;
+}
+.filtreComplet{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4db56a;
+}

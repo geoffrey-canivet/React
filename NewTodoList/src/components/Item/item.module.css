@@ -1,11 +1,30 @@
 .carditem {
     border: none!important;
+    opacity: 1;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.carditemfinish{
+    border: none!important;
+    opacity: 0.3;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .importance {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #970000;
+    background-color: #444951;
+}
+.importance2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4d8ab5;
+}
+.importance3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #9c3838;
 }
 .cardheader {
     color: rgb(255, 255, 255) !important;

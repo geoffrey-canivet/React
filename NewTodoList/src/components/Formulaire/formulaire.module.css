@@ -3,8 +3,28 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
+
 }
 .cardform {
     width: 100%;
     margin-left: 25px;
+    border: none!important;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.cardheader {
+    color: rgb(255, 255, 255) !important;
+    background-color: #272730 !important;
+}
+
+.cardfooter {
+    color: rgba(255, 255, 255, 0.50) !important;
+    background-color: #272730 !important;
+    font-size: 12px!important;
+    font-weight: lighter;
+}
+
+.cardbody {
+    color: white!important;
+    background-color: #2D2D37 !important;
 }
