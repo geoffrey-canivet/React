@@ -10,10 +10,11 @@ const Filtre = ({onFiltre}) => {
     return (
         <div className="col-12">
             <div className={style.containerFiltre}>
-                <div onClick={() => onFiltre("bas")} className={style.filtreBas}></div>
-                <div onClick={() => onFiltre("normal")} className={style.filtreNormal}></div>
-                <div onClick={() => onFiltre("haut")} className={style.filtreHaut}></div>
-                <div onClick={() => onFiltre("complet")} className={style.filtreComplet}></div>
+                <button type="button" onClick={() => onFiltre("all")} className={`btn btn-primary {}`}>Tout</button>
+                <button type="button" onClick={() => onFiltre("bas")} className={`btn btn-primary {}`}>Bas</button>
+                <button type="button" onClick={() => onFiltre("normal")} className={`btn btn-primary {}`}>Normal</button>
+                <button type="button" onClick={() => onFiltre("haut")} className={`btn btn-primary {}`}>Haut</button>
+                <button type="button" onClick={() => onFiltre("complet")} className={`btn btn-primary {}`}>Terminé</button>
             </div>
         </div>
     );

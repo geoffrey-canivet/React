@@ -1,23 +1,23 @@
 import TodoList from "./components/TodoList/TodoList.jsx";
 import './App.css'
 import {useState} from "react";
+import liste from "./data/Data";
+
 function App() {
 
+const [tacheState, setTacheState] = useState(liste);
 
-const [tacheState, setTacheState] = useState(
-    []
-);
 
     const handleFiltre = (filtre) => {
         switch (filtre) {
             case "bas":
-
+                setTacheState((prevState) => prevState.filter((tache) => tache.priorit === "bas"));
                 break;
             case "normal":
-
+                setTacheState((prevState) => prevState.filter((tache) => tache.priorit === "normal"));
                 break;
             case "haut":
-
+                setTacheState((prevState) => prevState.filter((tache) => tache.priorit === "haut"));
                 break;
             case "complet":
                 setTacheState((prevState) => prevState.filter((tache) => tache.finish === true));
