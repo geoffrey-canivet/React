@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-color: #1F1F1F!important;
+}
+
+.card{
+  background-color: #4D5156!important;
+  color: white!important;
+}
+
+.card-header{
+  background-color: #383b40 !important;
+}
+
+.card-footer{
+  background-color: #383b40 !important;
+}
