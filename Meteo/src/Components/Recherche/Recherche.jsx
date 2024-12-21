@@ -20,7 +20,7 @@ const Recherche = ({onRegionRecive}) => {
                     <div className="input-group mb-2 mt-2">
                         <input name="region" onChange={handleChange} type="text" className="form-control" placeholder="Ex: Bruxelles"/>
                         <div className="input-group-append">
-                            <button className="btn btn-dark" type="submit">Button</button>
+                            <button className="btn btn-dark" type="submit">Rechercher</button>
                         </div>
                     </div>
                 </form>

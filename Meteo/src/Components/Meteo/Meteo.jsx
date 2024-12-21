@@ -9,7 +9,7 @@ const Meteo = ({ region, info }) => {
                     <>
                         <h4 className="m-0">{region}</h4>
                         <img src={`https://openweathermap.org/img/wn/${info.weather[0].icon}@4x.png`} alt={`Ico ${info.weather[0].description}`}/>
-                        <h4 className="mb-4">{info.weather[0].description}</h4>
+                        <h5 className="mb-4">{info.weather[0].description}</h5>
                         <div className="row">
                             <div className="col-6">
                                 <p><span><FontAwesomeIcon icon={faTemperatureHalf} /> </span>{info.main.temp_max} °C</p>

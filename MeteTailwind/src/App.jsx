@@ -1,5 +1,7 @@
 import './App.css';
 import { useEffect, useState } from "react";
+import {faHouse, faPen} from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function App() {
     const [isDarkMode, setIsDarkMode] = useState(false); // Utilisation d'un état local uniquement
@@ -34,7 +36,7 @@ function App() {
                     <div
                         className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                         <div className="flex justify-between px-4 pt-3 pb-3">
-                            <h5 className="text-xl font-medium text-gray-900 dark:text-white">Charges</h5>
+                            <h5 className="text-xl font-medium text-gray-900 dark:text-white"><FontAwesomeIcon icon={faHouse} style={{color: "#74C0FC",}} />Charges</h5>
                             <div className="">
                                 <button id="dropdownButton" data-dropdown-toggle="dropdown"
                                         className="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5"
@@ -59,6 +61,7 @@ function App() {
                                         <path strokeLinecap="round" strokeLinejoin="round"
                                               d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/>
                                     </svg>
+
 
                                 </button>
                                 <button id="dropdownButton" data-dropdown-toggle="dropdown"
